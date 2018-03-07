@@ -1,10 +1,6 @@
 
  # HOW TO RUN INDEXER? 
 
- ## Important Note: I assumed there is a Dataset directory that consists of 
-
- reuters files in the same directory as Indexer.
-
  ## Step 1)	
 
 Run indexer python script to create two files named dictionary.txt and
