@@ -1,7 +1,16 @@
 
- # HOW TO RUN INDEXER? 
+ # What is Indexer?
 
- ## Step 1)	
+Articles in the files in the Dataset directory were taken from Reuters.
+
+Indexer module crawls on those articles and creates a dictionary and inverted index map.
+
+Querry processor module executes batch queries and shows document ids that matches the queries.
+
+
+ # How to Run Indexer? 
+
+ ## Step 1
 
 Run indexer python script to create two files named dictionary.txt and
 
@@ -14,7 +23,7 @@ Run indexer python script to create two files named dictionary.txt and
  
  ```
 
- ## Step 2) 
+ ## Step 2
 
   Run query_matcher.py script with a string argument of file name on the 
 
